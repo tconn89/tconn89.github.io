@@ -1,0 +1,39 @@
+
+/*
+* Masonry Nonsense
+*/
+#container {
+	margin:100px auto;
+	padding:20px;
+	background-color: #1f963a;
+
+}
+
+
+img {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 240px;
+	box-shadow: 5px 5px 4px #100f14;
+
+}
+
+.item {
+	background: transparent;
+	
+	width: 240px;
+	
+}
+
+.item.is-expanded {
+	width: 480px;
+	background-color: white;
+
+}
+
+.w {
+	width: 960px;
+	background-color: white;
+}
+
+	
