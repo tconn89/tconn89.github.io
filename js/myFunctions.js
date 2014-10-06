@@ -6,7 +6,8 @@ docReady( function() {
 
   var container = document.querySelector('#container');
   var msnry = new Masonry( container, { 
-    columnWidth: 250
+    columnWidth: 250,
+    isAnimated: true
   });
   imagesLoaded( container, function() {
       msnry.layout();
@@ -21,9 +22,9 @@ docReady( function() {
     }
     var itemElem = target.parentNode;
     classie.toggleClass( itemElem, 'is-expanded' );
-    
 
-    window.setTimeout(msnry.layout(),2000);
+
+    msnry.layout();
       
     
     
