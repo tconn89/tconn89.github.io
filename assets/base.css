@@ -13,20 +13,32 @@
 img {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
+    
 	width: 480px;
+
+	width: 240px;
+
 	box-shadow: 5px 5px 4px #100f14;
 
 }
 
 .item {
 	background: transparent;
-	
+	padding-bottom: 10px;
+
 	width: 480px;
+
+	width: 240px;
+
 	
 }
 
 .item.is-expanded {
+
 	width: 960px;
+
+	width: 480px;
+
 	background-color: white;
 
 }
