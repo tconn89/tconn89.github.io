@@ -4,17 +4,23 @@
 	<head>
 	  <meta charset="utf-8">
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <title> Ty's Portfolio </title>
-	  <link rel="stylesheet" href="assets/base.css">
 	  
-	  <script src="js/jquery.js"></script>
-	  <script src="js/masonry/masonry.pkgd.min.js"></script>
-	  <script src="js/classie.js"></script>
-	  <script src="js/imagesloaded.pkgd.min.js"></script>
-	  <script src="js/myFunctions.js"></script>
+	  <link rel="stylesheet" href="assets/base.css">
+	  <link rel="stylesheet" href="assets/bootstrap.min.css">
+	  <link rel="stylesheet" href="assets/bootstrap-theme.min.css">
+	  
+	  
 	</head>
 	<body>
 
+	<h1> Portfolio </h1>
+	<blockquote class="blockquote-reverse">
+	  <p>Lookin good ain't easy</p>
+	  <footer><cite title="Ty Connors">Ty Connors</cite></footer>
+	</blockquote>
+	
 		<!-- Masonry!!!!! -->	
 
 		<div id="container" class="js-masonry">
@@ -32,10 +38,39 @@
 		  	<img class="clickable" src="assets/IntegrationDraft.png" /></div>
 		  
 		  <div class="item">
-		  	<img class="clickable" src="assets/IntegrationDraft.png" /></div>		
-		</div>	
+		  	<div>
+				<object data="assets/Resume.v1.pdf" type="application/pdf" width="480" height="600">
+					alt : <a href="assets/Resume.v1.pdf">Resume.V1.pdf</a>
+				</object>
+			</div> 
+		  	
+
+		  	<div class="item">
+		  	<img class="clickable" src="assets/HeroCard.v1.jpg" /></div>		
+			
+		</div>
+
 
 		<!-- End Masonry -->
+
+		<div>&#xe064;</div>
 			
+	  <script src="js/jquery.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/masonry/masonry.pkgd.min.js"></script>
+	  <script src="js/classie.js"></script>
+	  <script src="js/imagesloaded.pkgd.min.js"></script>
+	  <script src="js/myFunctions.js"></script>
+
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-55633508-1', 'auto');
+		  ga('send', 'pageview');
+
+	</script>
 	</body>
 </html>
