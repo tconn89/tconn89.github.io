@@ -10,23 +10,41 @@
 }
 
 
+.inspire {
+	padding: 25px;
+}
+
+
 img {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	width: 240px;
+
+    
+	width: 480px;
+
 	box-shadow: 5px 5px 4px #100f14;
 
 }
 
 .item {
 	background: transparent;
-	
-	width: 240px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+
+	width: 480px;
+
+
+
+
 	
 }
 
 .item.is-expanded {
-	width: 480px;
+
+
+	width: 960px;
+
+
 	background-color: white;
 
 }
