@@ -1,6 +1,16 @@
-// external js
-// http://masonry.desandro.com/masonry.pkgd.js
-// http://masonry.desandro.com/bower_components/classie/classie.js
+
+//set div height for blockquotes div
+
+// var sumHeights = 0;
+// $('blockquote').each(function(x) {
+//   sumHeights += $(this).height();
+// });
+
+// $(".quotes").css('height',sumHeights);
+
+
+
+//Masonry Stuff
 
 docReady( function() {
 

@@ -15,6 +15,22 @@ h1 {
 	color: white;
 	background-color: #1f963a;
 	font-family: gotham;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.quotes {
+	height: 100%;
+}
+
+.khosla {
+	padding: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+.quoteFooter {
+	font-size: 120%;
 }
 
 
@@ -22,9 +38,10 @@ h1 {
 * Masonry Nonsense
 */
 #container {
-	margin:100px auto;
+	
 	padding:20px;
 	background-color: #1f963a;
+	
 
 }
 
@@ -34,18 +51,22 @@ h1 {
 }
 
 
-img {
+img{
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 
     width: 100%;
     height: auto;
-	/*width: 480px;*/
+}
 
-	box-shadow: 5px 5px 4px #100f14;
+img.khosla {
 
 }
 
+/*img.item{
+	box-shadow: 5px 5px 4px #100f14;
+}
+*/
 .item {
 	background: transparent;
 	padding-bottom: 10px;
