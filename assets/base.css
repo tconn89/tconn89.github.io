@@ -63,10 +63,11 @@ img.khosla {
 
 }
 
-/*img.item{
+.item > img {
 	box-shadow: 5px 5px 4px #100f14;
+
 }
-*/
+
 .item {
 	background: transparent;
 	padding-bottom: 10px;
@@ -76,19 +77,10 @@ img.khosla {
 	
 }
 
-.item.is-expanded {
-
+/*.item.is-expanded {
 
 	width: 960px;
-
-
 	background-color: white;
 
-}
+}*/
 
-.w {
-	width: 960px;
-	background-color: white;
-}
-
-	

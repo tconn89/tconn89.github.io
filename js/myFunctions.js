@@ -1,5 +1,6 @@
 
 //set div height for blockquotes div
+//bad code
 
 // var sumHeights = 0;
 // $('blockquote').each(function(x) {
@@ -8,6 +9,7 @@
 
 // $(".quotes").css('height',sumHeights);
 
+$('.khosla').css('width', 2*$('.ireneCitation').width())
 
 
 //Masonry Stuff
