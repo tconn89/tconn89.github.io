@@ -9,20 +9,12 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <title> Ty's Portfolio </title>
 	  
-	  <link rel="stylesheet" href="assets/base.css">
+	  
 	  <link rel="stylesheet" href="assets/bootstrap.min.css">
 	  <link rel="stylesheet" href="assets/bootstrap-theme.min.css">
-	 
+	  <link rel="stylesheet" href="assets/base.css">
 	  
-	  
-
 	
-
-	<h1> Portfolio </h1>
-	<blockquote class="blockquote-reverse">
-	  <p>Lookin good ain't easy</p>
-	  <footer><cite title="Ty Connors">Ty Connors</cite></footer>
-	</blockquote>
 
 
 	
@@ -41,9 +33,61 @@
 		</script>
 	</head>
 	<body>
+
+	<h1> User-centric Design </h1>
+
+	<div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div class="navbar-collapse collapse" style="height: 1px;">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#container">Images</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default</a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </div>
 	
-	<div class="inspire">
-		Good product and interaction designers know how to engage in a design process that leads to good outcomes. They are good communicators; they are knowledgeable about user interface standards and conventions, and are capable of envisioning the dynamic nature of the product and the functional flow. They know when and how to use user research. They know how to adopt the right mindset at the right stage of the design and development process: divergent thinking during brainstorming and ideation phase, and convergent thinking when it’s time to iterate and launch. They are deep thinkers: they understand interdependencies, requirements, and constraints, and take a step back, see the big picture, and clarify how everything fits together. They have high emotional intelligence: they know how to work with engineers and marketing stakeholders and how to receive feedback well. Product and service design are inevitably the outcome of a large team effort and a reflection of the company’s culture, values, and principles; a good designer knows how to guide a company and/or team through a journey of defining or understanding the vision, values, and principles, articulating that, and making it tangible.
+
+	<blockquote class="blockquote-reverse">
+	  <p>Lookin good ain't easy</p>
+	  <footer><cite title="Ty Connors">Ty Connors</cite></footer>
+	</blockquote>
+	
+
+	<div class="row">
+		<div class="col-md-3">
+			Good product and interaction designers know how to engage in a design process that leads to good outcomes. They are good communicators; they are knowledgeable about user interface standards and conventions, and are capable of envisioning the dynamic nature of the product and the functional flow. They know when and how to use user research. They know how to adopt the right mindset at the right stage of the design and development process: divergent thinking during brainstorming and ideation phase, and convergent thinking when it’s time to iterate and launch. They are deep thinkers: they understand interdependencies, requirements, and constraints, and take a step back, see the big picture, and clarify how everything fits together. They have high emotional intelligence: they know how to work with engineers and marketing stakeholders and how to receive feedback well.
+		</div>
+		<div class="col-md-6">
+			Product and service design are inevitably the outcome of a large team effort and a reflection of the company’s culture, values, and principles; a good designer knows how to guide a company and/or team through a journey of defining or understanding the vision, values, and principles, articulating that, and making it tangible.
+		</div>
 	</div>
 
 
@@ -51,25 +95,19 @@
 
 		<div id="container" class="js-masonry">
 
-		  <div class="item">
-		  	<img class="clickable" src="assets/slideThenFade.gif" /></div>
+		  <div class="item col-md-4">
+		  	<img class="clickable " src="assets/slideThenFade.gif" /></div>
 		  
-		  <div class="item w2">
+		  <div class="item col-md-4">
 		  	<img class="clickable" src="assets/FF9.png" /></div>
 
-		  <div class="item">
+		  <div class="item col-md-4">
 		  	<img class="clickable" src="assets/UltimateProfile.jpg" /></div>
 
-		  <div class="item">
-
+		  <div class="item col-md-4">
 		  	<img class="clickable" src="assets/IntegrationDraft.png" /></div>
 		  
-		  <div class="item">
-
-		  	
-		  	
-
-		  	<div class="item">
+		  <div class="item col-md-4">
 		  	<img class="clickable" src="assets/HeroCard.v1.jpg" /></div>		
 			
 		</div>

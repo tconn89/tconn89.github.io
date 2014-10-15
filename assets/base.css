@@ -1,4 +1,23 @@
 
+
+@font-face {
+   font-family: gotham;
+   src: url(fonts/gotham-bold.ttf);
+}
+
+body {
+	padding: 20px;
+	color: #666666;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background-color: #1f963a;
+	font-family: gotham;
+}
+
+
 /*
 * Masonry Nonsense
 */
@@ -19,8 +38,9 @@ img {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 
-    
-	width: 480px;
+    width: 100%;
+    height: auto;
+	/*width: 480px;*/
 
 	box-shadow: 5px 5px 4px #100f14;
 
@@ -29,13 +49,9 @@ img {
 .item {
 	background: transparent;
 	padding-bottom: 10px;
-	padding-right: 10px;
+	
 
-	width: 480px;
-
-
-
-
+	/*width: 480px;*/
 	
 }
 
