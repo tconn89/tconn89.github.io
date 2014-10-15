@@ -2,7 +2,8 @@
 
 @font-face {
    font-family: gotham;
-   src: url(fonts/gotham-bold.ttf);
+   src: url('fonts/gotham-bold.ttf');
+   /*src: local('Gotham Bold'), local('Gotham'), url('fonts/gotham-bold.ttf') format('truetype');*/
 }
 
 body {
