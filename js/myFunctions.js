@@ -11,6 +11,18 @@
 
 $('.khosla').css('width', 2*$('.ireneCitation').width())
 
+//Sticky Navbar
+var  mn = $(".navbar");
+    mns = "nav-scrolled";
+    hdr = $('.header').height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr ) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns);
+  }
+});
 
 //Masonry Stuff
 
@@ -18,8 +30,7 @@ docReady( function() {
 
   var container = document.querySelector('#container');
   var msnry = new Masonry( container, { 
-    columnWidth: 250,
-    isAnimated: true
+    
   });
   imagesLoaded( container, function() {
       msnry.layout();
