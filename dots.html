@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+
+<style>
+	#space {
+		height: 50px;
+	}
+	
+	label.inputTitle {
+		
+	}
+
+	input {
+		
+		background-color: #3f91e5;
+	}
+
+	#container {
+		max-width: 600px;
+	}
+
+	#speed, #size {
+		width: 100%;
+		display: flex;
+    	justify-content: space-around;
+	}
+
+	.sliders {
+		position: relative;
+		left: 15px;
+	}
+
+	input[type=button] {
+		
+		width: 40%;
+		height: 60px;
+		padding: 0;
+		font-size: 22px;
+		color: white;
+		text-align: center;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+		background: #1abc9c;
+		border: 0;
+		border-bottom: 2px solid #12ab8d;
+		cursor: pointer;
+		-webkit-box-shadow: inset 0 -2px #12ab8d;
+		box-shadow: inset 0 -2px #12ab8d;
+	}
+</style>
+<body>
+	<div id="container">
+		<div id="speed">
+			<h3>Rotation Speed</h3>
+			<div class="">
+				
+					<label for="left">Slower</label>
+					<input id="slider" type="range" min="1" max="5">
+					<label for="right">Faster</label>
+				
+			</div>
+		</div>
+		<div id="size">	
+			<h3>Dot Size</h3>
+			<div class="sliders">
+				
+					<label for="left">Slower</label>		
+					<input id="slider2" type="range" min="1" max="7">
+					<label for="left">Bigger</label>
+				
+			</div>
+		</div>
+		<input type="button" value="Random Dot" onclick="turnRed()">
+		<div id="test">??</div>
+	</div>	
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/d3.min.js"></script>
+
+
+
+<script>
+	
+	var slider = $('#slider')[0];
+	var speed = slider.value;
+
+	var slider2 = d3.select('#slider2');
+	var test = $('#test')[0];
+	
+	var speedSlider = d3.select('#slider');
+	speedSlider.on("change", function() {
+		//d3.timer.flush();
+		var angle = (Date.now() - start);
+		var slideDiff = speed - slider.value;
+		console.log(slideDiff);
+		var offset = -angle * Math.abs(slideDiff);
+		//canvas.attr("transform", "rotate(" + offset/40  + ")");
+		speed = slider.value;
+			if(stopTimer) {
+				stopTimer = false;
+				setRotationTimer();
+			}
+		
+	});
+
+	slider2.on("change", function()	{
+		var sizeShift = $('#slider2')[0].value;
+    	test.innerHTML = sizeShift;
+
+    	circles.transition()
+    		.duration(1500)
+    		.attr("cx", function (d) { return(20 * sizeShift * Math.cos(d) + 250); })
+            .attr("cy", function (d) { return(20 * sizeShift * Math.sin(d) + 250); })
+            .attr("r", function (d) { return 3*sizeShift; })
+            .style("fill", "green");
+	});	
+
+	//start in degrees
+	var array = [0, 40, 80, 120, 160, 200, 240, 280, 320, 360];
+	var radPlier = Math.PI / 180;
+
+	//convert to radians
+	for (i = 0; i < array.length; i++) { 
+    	array[i] *= radPlier;
+	}
+	
+	var start = Date.now();
+
+	var canvas = d3.select("body")
+					.append("svg")
+					.attr("width", 500)
+					.attr("height", 500);
+	
+	var circleGroup = canvas.append("g");
+
+	var circles = circleGroup.selectAll("circle")
+                    .data(array)
+                    .enter()
+                    .append("circle");
+                    		
+                    
+	var circleAttributes = circles
+                    .attr("cx", function (d) { return(40 * Math.cos(d) + 250); })
+                    .attr("cy", function (d) { return(40 * Math.sin(d) + 250); })
+                    .attr("r", function (d) { return 5; })
+                    .attr("class", function(d,i){return "circle" + i; })
+                    .style("fill", "blue");
+    
+    function turnRed(){
+	    var circle0 = canvas.select('.circle0')
+	    				.transition()
+	    				.attr("r", function (d) { return 10; })
+	    				.style("fill", "red");
+    }
+    stopTimer = false;
+    setRotationTimer();
+
+    function setRotationTimer(){
+	    d3.timer(function() {
+	    	
+		  	var angle = (Date.now() - start) * speed,
+		      	transform = function(d) { return "rotate(" + angle / 40 + ",250,250)"; };
+		  	circleGroup.attr("transform", transform);
+			
+			if(speed == 1){stopTimer = true;}
+		  	return stopTimer;
+		});	
+	}	
+		
+		
+</script>

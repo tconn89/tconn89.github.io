@@ -1,36 +1,13 @@
-
-//set div height for blockquotes div
-//bad code
-
-// var sumHeights = 0;
-// $('blockquote').each(function(x) {
-//   sumHeights += $(this).height();
-// });
-
-// $(".quotes").css('height',sumHeights);
-
-$('.khosla').css('width', 2*$('.ireneCitation').width())
-
-//Sticky Navbar
-var  mn = $(".navbar");
-    mns = "nav-scrolled";
-    hdr = $('.header').height();
-
-$(window).scroll(function() {
-  if( $(this).scrollTop() > hdr ) {
-    mn.addClass(mns);
-  } else {
-    mn.removeClass(mns);
-  }
-});
-
-//Masonry Stuff
+// external js
+// http://masonry.desandro.com/masonry.pkgd.js
+// http://masonry.desandro.com/bower_components/classie/classie.js
 
 docReady( function() {
 
   var container = document.querySelector('#container');
   var msnry = new Masonry( container, { 
-    
+    columnWidth: 250,
+    isAnimated: true
   });
   imagesLoaded( container, function() {
       msnry.layout();
