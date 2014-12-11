@@ -10,6 +10,10 @@ body {
 	
 }
 
+.layout-title {
+	color: white;
+}
+
 h1 {
 	text-align: center;
 	color: white;
