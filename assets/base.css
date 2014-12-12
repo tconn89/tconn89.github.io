@@ -1,11 +1,14 @@
 
 
 @font-face {
-   font-family: Gotham-Medium;
-   src: url('fonts/Gotham-Medium.ttf');
+   font-family: Gotham;
+   src: url('fonts/Gotham-Ultra.ttf');
    /*src: local('Gotham Bold'), local('Gotham'), url('fonts/gotham-bold.ttf') format('truetype');*/
    font-family: villa;
    src: url('fonts/Villa.ttf');
+
+   font-family: Montserrat;
+   src: url('fonts/Montserrat-Bold.otf'); 
 }
 
 
@@ -16,28 +19,50 @@
 	    overflow: hidden;
 	}
 
-
 #needless {
+	font-size: 64px;
+}
+#suffix {
+	font-size: 32;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 25px;
+}
+
+
+#needless, #suffix {
 	
 	text-align: center;
-	font-size: 64px;
-	font-family: Gotham-Medium;
+	
+	font-family: Montserrat;
 	color: #FFD700;
 	position: relative;
 	top: 10px;
-
-	-webkit-text-stroke-width: 1px;
-   	-webkit-text-stroke-color: #2F4F4F;
 }
+
+
+
 @media screen and (max-width: 420px) {
-#needless {
-	font-size: 32px;
-	}	
+	#needless {
+		font-size: 32px;
+	}
+	#suffix {
+		margin: 20px;
+		font-size: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
 }
 
 @media screen and (min-width: 420px) and (max-width: 950px) {
-#needless {
-	font-size: 48px;
+	#needless {
+		font-size: 48px;
+	}
+	#suffix {
+		font-size: 28px;
+		padding-left: 100px;
+		padding-right: 100px;
 	}	
 }
 
