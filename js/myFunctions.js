@@ -6,7 +6,9 @@ docReady( function() {
   $('#masonry-link').click(function(){
     $('#masonry-container').toggle()
   });
+
   
+
   cropBanner();
 
   var container = document.querySelector('#container');
@@ -36,6 +38,10 @@ docReady( function() {
 function cropBanner(){
   var banner = $('.badge-container')
   banner.css("height", function() {return .66*banner.width();});
+}
+
+function adjustCover(){
+
 }
 
 $(window).resize(function(){
