@@ -11,16 +11,28 @@ body {
 }
 
 .layout-title {
-	color: white;
+	
 }
 
-h1 {
-	text-align: center;
-	color: white;
-	background-color: #1f963a;
+#nav-title .layout-title {
+	
+	color: #1f963a;
+	font-size: 24px;
 	font-family: gotham;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	
+}
+
+.badge-container {
+	max-height: 960px;
+	overflow: hidden;
+}
+
+#projects-banner {
+	margin: 0 auto;
+}
+
+ul.nav.navbar-nav {
+	float: right;
 }
 
 .navbar {
@@ -34,7 +46,15 @@ h1 {
 }
 
 .quotes {
-	height: 100%;
+	background-color: #f2f2f2;
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.myquote {
+		content: 'Figure \a';
+
+	}
 }
 
 .khosla {
@@ -47,36 +67,52 @@ h1 {
 	font-size: 120%;
 }
 
+.img-responsive {
+	margin-bottom: 15px;
+}
 
 /*
 * Masonry Nonsense
 */
-#container {
+#masonry-container {
 	
 	padding:20px;
-	background-color: #1f963a;
+	background-color: #f2f2f2;
+	
 	
 
 }
 
+#projects{
+	margin: 10px;
+}
+
+.proj-hover:hover {
+
+}
 
 .inspire {
 	padding: 25px;
 }
 
 
-img{
+.masonry-img {
 	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+	border-radius: 10px;
 
     width: 100%;
     max-width: 360px;
     height: auto;
 }
 
-img.khosla {
+img.proj-items {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 
+	
+	width: 100% !important;
 }
+
 
 .item > img {
 	box-shadow: 5px 5px 4px #100f14;
@@ -86,16 +122,8 @@ img.khosla {
 .item {
 	background: transparent;
 	padding-bottom: 10px;
-	
 
-	/*width: 480px;*/
 	
 }
 
-/*.item.is-expanded {
-
-	width: 960px;
-	background-color: white;
-
-}*/
 

@@ -30,7 +30,7 @@
 	</head>
 	<body>
 
-	<h1 class="header"> USER-CENTRIC DESIGN </h1>
+	
 
 	<div class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -41,47 +41,43 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" id="nav-title" href="#">
+            	 USER-CENTRIC DESIGN 
+            </a>
           </div>
           <div class="navbar-collapse collapse" style="height: 1px;">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="geo.html">GeoLocation</a></li>
+              <li><a href="geo.html">GeoLocation</a></li>
               <li><a href="#container">Images</a></li>
               <li><a href="dots.html">SVG Playground</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
+             
+                
               </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default</a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            </ul>
+            
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </div>
 	
 	<!-- Famous Quotes !!!!!!!! -->
-	<div class="quotes container">
-		
-		<blockquote class="row blockquote-reverse">
-		  	<div class="col-md-6">
-			  	<img class="clickable" src="assets/HeroCard.v2.jpg"  />
-			</div><br>
-		  <p >Lookin good ain't easy</p>
-		  <footer class="quoteFooter"><cite title="Ty Connors">Ty Connors</cite></footer>
-		</blockquote>
-		
-		
+	
+
+	<div id="projects">
+		<div class="badge-container">
+			<img src="assets/RetroBadge.svg" class="img-responsive" id="projects-banner">
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<img src="assets/d3.png" class="img-responsive proj-items proj-hover"></div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+			  		<img src="assets/IXDesigner.jpg" class="img-responsive proj-items proj-hover" /></div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a id="masonry-link"><img src="assets/responsive.png"  class="img-responsive proj-items proj-hover"></a></div>
+				
+				
+			</div>	
+		</div>
 	</div>
 	<!-- END Famous Quotes !!!!!!!! -->
 
@@ -90,27 +86,37 @@
 
 		<!-- Masonry!!!!! -->	
 
-		<div id="container" class="js-masonry">
-		  <h2 class="layout-title"> Resposive Layout with Masonry JS </h2>
-		  <div class="item col-md-4">
-		  	<img class="clickable " src="assets/slideThenFade.gif" /></div>
-		  
-		  <div class="item col-md-4">
-		  	<img class="clickable" src="assets/FF9.png" /></div>
+		
+	<div id="masonry-container" >
+		<h2 class="layout-title text-center"> RESPONSIVE LAYOUT WITH MASONRY JS </h2><br>
+		<div class="js-masonry">
+			<div class="item col-md-4">
+				<img class="masonry-img " src="assets/slideThenFade.gif" /></div>
 
-		  <div class="item col-md-4">
-		  	<img class="clickable" src="assets/Professional.jpg" /></div>
+			<div class="item col-md-4">
+				<img class="masonry-img" src="assets/FF9.png" /></div>
 
-		  <div class="item col-md-4">
-		  	<img class="clickable" src="assets/IntegrationDraft.png" /></div>
-		  
-		  		
-			
+			<div class="item col-md-4">
+				<img class="masonry-img" src="assets/Professional.jpg" /></div>
+
+			<div class="item col-md-4">
+				<img class="masonry-img" src="assets/IntegrationDraft.png" /></div>	
+		
 		</div>
-
-
+	</div>
 		<!-- END Masonry -->
+		
 
+	<div class="quotes container">
+		
+		<blockquote class="row blockquote-reverse">
+			<div class="myquote">
+		  		<p >Lookin good ain't easy</p>
+		  		<footer class="quoteFooter"><cite title="Ty Connors">Ty Connors</cite></footer>
+		  	</div>
+		</blockquote>
+		
+	</div>
 			
 	  <script src="js/jquery-1.11.1.min.js"></script>
 	  <script src="js/bootstrap.min.js"></script>
