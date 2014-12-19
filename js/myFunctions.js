@@ -7,7 +7,24 @@ docReady( function() {
     $('#masonry-container').toggle()
   });
 
-  
+var $projHov = $(".proj-hover");
+var $onHover = $('.proj-description')
+$onHover.hide();
+
+
+function showDescription () {
+  $(this).next().slideDown(300);
+
+}
+
+function hideDescription () {
+  $(this).next().slideUp(300);
+}
+
+
+  $projHov.mouseover(showDescription)
+$projHov.mouseout(hideDescription)
+
 
   cropBanner();
 

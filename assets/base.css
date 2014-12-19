@@ -8,16 +8,30 @@
    src: url('fonts/Villa.ttf');
 
    font-family: Montserrat;
-   src: url('fonts/Montserrat-Bold.otf'); 
+   src: url('fonts/Montserrat-Bold.otf');
+
+   font-family: Montserrat-light;
+   src: url('fonts/Montserrat-Light.otf'); 
 }
 
+.onHover{
+	background-color: #FFD700;
+	padding: 10px;
+	
+}
 
-	.cover-background{
+.auto-ht {
+	height:auto;
+}
+
+.cover-background{
 	    background-image: url('Trifecta1.png');
 	    width:100%;
 	    height: auto;
 	    overflow: hidden;
 	}
+
+
 
 #needless {
 	font-size: 64px;
@@ -30,7 +44,7 @@
 }
 
 
-#needless, #suffix {
+#needless, #suffix, .proj-description {
 	
 	text-align: center;
 	
@@ -40,7 +54,9 @@
 	top: 10px;
 }
 
-
+	.proj-description {
+		font-family: Montserrat-light !important;
+}
 
 @media screen and (max-width: 420px) {
 	#needless {
@@ -145,6 +161,15 @@ ul.nav.navbar-nav {
 
 #projects{
 	margin: 10px;
+}
+
+.proj-description {
+	font-size: 20px;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+
 }
 
 .proj-hover:hover {
