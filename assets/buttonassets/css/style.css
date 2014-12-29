@@ -4,27 +4,23 @@
   box-sizing: border-box;
 }
 
-/* line 19, ../compass/sass/style.scss */
-html, body {
-  height: 100%;
+.footer{
+  height: 100px;
   width: 100%;
-}
-
-/* line 23, ../compass/sass/style.scss */
-body {
   background: #222;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  
 }
 
 /* line 31, ../compass/sass/style.scss */
 .pulse {
+
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  
   
   margin: auto;
   color: #EE3769;
@@ -39,11 +35,11 @@ body {
 }
 /* line 45, ../compass/sass/style.scss */
 .pulse span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+    position: absolute;
+    
+    right: 0px;
+    left: 0px;
+    bottom: -120px;
   
   margin: auto;
 
