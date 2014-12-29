@@ -10,7 +10,7 @@
   $(window).resize(function(){
     cropBanner();  
   });
-
+//check git error
 
 function showProjDescription(){
   $(this).next().slideDown(300);
