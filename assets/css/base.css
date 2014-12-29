@@ -2,16 +2,16 @@
 
 @font-face {
    font-family: Gotham;
-   src: url('fonts/Gotham-Ultra.ttf');
+   src: url('../fonts/Gotham-Ultra.ttf');
    /*src: local('Gotham Bold'), local('Gotham'), url('fonts/gotham-bold.ttf') format('truetype');*/
    font-family: villa;
-   src: url('fonts/Villa.ttf');
+   src: url('../fonts/Villa.ttf');
 
    font-family: Montserrat;
-   src: url('fonts/Montserrat-Bold.otf');
+   src: url('../fonts/Montserrat-Bold.otf');
 
    font-family: Montserrat-light;
-   src: url('fonts/Montserrat-Light.otf'); 
+   src: url('../fonts/Montserrat-Light.otf'); 
 }
 
 .onHover{
@@ -19,16 +19,13 @@
 	padding: 10px;
 	
 }
-.explanation{
-	position: absolute;
-	bottom: 100px;
-}
+
 .auto-ht {
 	height:auto;
 }
 
 .cover-background{
-	    background-image: url('Trifecta1.png');
+	    background-image: url('../images/Trifecta1.png');
 	    width:100%;
 	    height: auto;
 	    overflow: hidden;
