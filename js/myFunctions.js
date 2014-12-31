@@ -30,6 +30,20 @@ function cropBanner(){
   banner.css("height", function() {return .66*banner.width();});
 }
 
+//scrolling and fixed pos for footer
+
+// var footer = $(".footer");
+
+// $(window).on("scroll", function(e) {
+    
+//   if ($(window).scrollTop() > 147) {
+//     footer.addClass("fix-footer");
+//   } else {
+//     footer.removeClass("fix-footer");
+//   }
+  
+// });
+
 
 
 

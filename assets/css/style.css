@@ -53,13 +53,15 @@
 
         -webkit-transition: width 0.7s ease-out;
         transition: width 0.7s ease-out;
-
-        border-style: dashed;
-        border-color: white;
   }
   .footer {
     height: 100px;
+    z-index: -1;
   }
+  /*.fix-footer {
+    position: fixed;
+    bottom: 0px;
+  }*/
 }
 .social-wrapper > div {
   /*width: 100%;*/

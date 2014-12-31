@@ -14,6 +14,7 @@
    src: url('../fonts/Montserrat-Light.otf'); 
 }
 
+
 .onHover{
 	background-color: #FFD700;
 	padding: 10px;
@@ -22,6 +23,7 @@
 
 .auto-ht {
 	height:auto;
+	z-index: 5;
 }
 
 .cover-background{
@@ -52,10 +54,12 @@
 	color: #FFD700;
 	position: relative;
 	top: 10px;
+
 }
 
 	.proj-description {
 		font-family: Montserrat-light !important;
+		z-index: 5;
 }
 
 @media screen and (max-width: 420px) {
