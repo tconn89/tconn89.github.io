@@ -4,6 +4,9 @@
   $(".proj-onHover").mouseover(showProjDescription);
   $(".proj-onHover").mouseout(hideProjDescription);
 
+  $('.pulse > span').hover( function() {$(this).children().css("color", "white"); },
+      function() {$(this).children().css("color", "#EE3769"); });
+
 // SVG RetroBadge Cropping
   cropBanner();
 

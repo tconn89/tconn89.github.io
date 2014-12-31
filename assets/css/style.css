@@ -4,42 +4,93 @@
   box-sizing: border-box;
 }
 
+@font-face{
+  font-family: Montserrat;
+   src: url('../fonts/Montserrat-Bold.otf');
+}
 .footer{
-  height: 100px;
+  
   width: 100%;
   background: #222;
-  position: absolute;
+  
+
+  /* basic styling */
+  font: 14px Montserrat;;
+
+  /* flexbox setup */
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
   
 }
 
-/* line 31, ../compass/sass/style.scss */
-.pulse {
 
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  bottom: 0px;
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    height: 150px;
+  }
+  .social-wrapper {
+    width:100%;
+  }
+  .social-wrapper > div {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 601px) {
+  .social-wrapper {
+    -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+
+        width: 10em; /* To make the transition work nicely.  (Transitions to/from
+                        "width:auto" are buggy in Gecko and Webkit, at least.
+                        See http://bugzil.la/731886 for more info.) */
+
+        -webkit-transition: width 0.7s ease-out;
+        transition: width 0.7s ease-out;
+
+        border-style: dashed;
+        border-color: white;
+  }
+  .footer {
+    height: 100px;
+  }
+}
+.social-wrapper > div {
+  /*width: 100%;*/
   
-  
-  margin: auto;
+margin: auto;
   color: #EE3769;
-  text-decoration: none;
+  
   cursor: pointer;
   border: 1px solid #EE3769;
   height: 2.8em;
-  width: 10em;
-  padding: 0;
-  outline: none;
+  width: 50%;
+  
+  /*outline: none;*/
   overflow: hidden;
+
+}
+
+/* line 31, ../compass/sass/style.scss */
+.pulse span > b {
+  color: #EE3769;
+  text-decoration: none;
+}
+.pulse {
+
+
 }
 /* line 45, ../compass/sass/style.scss */
 .pulse span {
-    position: absolute;
-    
-    right: 0px;
-    left: 0px;
-    bottom: -120px;
+  position: relative;
+  top: -8.9em;
+  left: -4.7em;
   
   margin: auto;
 
@@ -48,13 +99,15 @@
   width: 20em;
   height: 20em;
   line-height: 20em;
-  left: -5em;
+  
   text-align: center;
   transition: box-shadow 0.5s ease-out, color 0.3s 0.1s ease-out;
 
 }
 /* line 58, ../compass/sass/style.scss */
 .pulse span:hover {
-  color: #fff;
+  color:#fff;
   box-shadow: inset 0 0 0 10em rgba(238, 55, 105, 0.8);
+  
 }
+
