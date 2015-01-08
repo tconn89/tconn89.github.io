@@ -21,9 +21,14 @@
 	
 }
 
+.outline {
+	border-style: solid;
+    border-width: 5px;
+    border-color: #df764c;
+}
+
 .auto-ht {
-	height:auto;
-	z-index: 5;
+	margin-bottom: 15px;
 }
 
 .cover-background{
@@ -46,7 +51,7 @@
 }
 
 
-#needless, #suffix, .proj-description {
+#needless, #suffix {
 	
 	text-align: center;
 	
@@ -58,8 +63,8 @@
 }
 
 	.proj-description {
-		font-family: Montserrat-light !important;
-		z-index: 5;
+		font-family: Montserrat-light;
+		color: #FFD700;
 }
 
 @media screen and (max-width: 420px) {
@@ -176,6 +181,52 @@ ul.nav.navbar-nav {
 
 }
 
+.under-img {
+  position: relative;
+  height: 200px;
+  
+ 
+  
+  /*z-index: 5;*/
+}
+
+.proj-text {
+	display: inline-block;
+    vertical-align: middle;
+    
+    line-height: normal;
+    text-justify: left;
+    width: 50%;
+	font-size: 14px;
+	font-family: Montserrat;
+	
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  color: black;
+  margin-left 0;
+  transition: margin-left 1.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  z-index: 1;
+  
+}
+
+.two {
+  background: hotpink;
+  z-index: 0;
+}
+
+
+.under-img:hover > .slide {
+  margin-left: 50%;
+  z-index: inherit 1;
+}
+
 .proj-hover:hover {
 
 }
@@ -213,6 +264,22 @@ img.proj-items {
 	padding-bottom: 10px;
 
 	
+}
+
+.d3-button {
+		width: 45%;
+		height: 60px;
+		padding: 0;
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+		background: #1abc9c;
+		border: 0;
+		border-bottom: 2px solid #12ab8d;
+		cursor: pointer;
+		-webkit-box-shadow: inset 0 -2px #12ab8d;
+		box-shadow: inset 0 -2px #12ab8d;
 }
 
 
