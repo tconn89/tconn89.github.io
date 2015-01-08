@@ -35,8 +35,23 @@
 	    background-image: url('../images/Trifecta1.png');
 	    width:100%;
 	    height: auto;
+	    padding-bottom: 50px;
 	    overflow: hidden;
+	    position: relative;
 	}
+.absolute-cover {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 0;
+	background-image: none;
+}
+.fixed-cover{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-image: url('../images/Trifecta1.png');
+}
 
 
 
@@ -91,9 +106,6 @@
 	}	
 }
 
-body {
-	
-}
 
 .layout-title {
 	
@@ -122,12 +134,18 @@ ul.nav.navbar-nav {
 
 .navbar {
 	z-index: 150;
+	background-color: rgba(0,0,0, 0);
+	
 }
 
 .nav-scrolled {
   position: fixed;
   width: 100%;
   top: 0;
+}
+
+a.color-gold, ul.color-gold>li>a {
+	color: #FFD700 !important;
 }
 
 .quotes {
