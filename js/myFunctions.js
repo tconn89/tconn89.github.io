@@ -29,7 +29,16 @@ $(window).scroll(function(){
   $(window).resize(function(){
     cropBanner();  
   });
-//check git error
+
+var d3mobileSlide = $('.slide');
+
+var mc = new Hammer(d3mobileSlide);
+
+// listen to events...
+mc.on("panright", function(ev) {
+    d3mobileSlide.trigger("mouseover");
+});
+
 
 function showProjDescription(){
   $(this).next().slideDown(300);
