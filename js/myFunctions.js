@@ -30,13 +30,14 @@ $(window).scroll(function(){
     cropBanner();  
   });
 
+
+//touchSwipe
 var d3mobileSlide = $('.slide');
 
-var mc = new Hammer(d3mobileSlide);
-
-// listen to events...
-mc.on("panright", function(ev) {
-    d3mobileSlide.trigger("mouseover");
+d3mobileSlide.swipe({
+  swipeRight:function(event, direction, distance, duration, fingerCount) {
+    $(this).trigger("mouseover");
+  }
 });
 
 
