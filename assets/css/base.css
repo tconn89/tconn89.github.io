@@ -76,13 +76,26 @@
 	top: 10px;
 
 }
+#needless {
+	left: -20px;
+}
+.ty-logo {
+	width: 120px !important;
+	height: 120px !important;
+	position: relative;
+}
+
+#suffix {
+	padding-left: 250px;
+		padding-right: 250px;
+}
 
 	.proj-description {
 		font-family: Montserrat-light;
 		color: #FFD700;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 534px) {
 	#needless {
 		font-size: 32px;
 	}
@@ -92,10 +105,15 @@
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+	.ty-logo {
+		width: 36px !important;
+		height: 36px !important;
+		top: -3px;
+	}
 
 }
 
-@media screen and (min-width: 420px) and (max-width: 950px) {
+@media screen and (min-width: 535px) and (max-width: 950px) {
 	#needless {
 		font-size: 48px;
 	}
@@ -103,7 +121,11 @@
 		font-size: 28px;
 		padding-left: 100px;
 		padding-right: 100px;
-	}	
+	}
+	.ty-logo {
+		width: 100px !important;
+		height: 100px !important;
+	}
 }
 
 
