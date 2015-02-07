@@ -13,7 +13,10 @@
    font-family: Montserrat-light;
    src: url('../fonts/Montserrat-Light.otf'); 
 }
-
+.navbar {
+	height: 80px !important;
+	border: none;
+}
 
 .onHover{
 	background-color: #FFD700;
@@ -40,8 +43,7 @@
 	    position: relative;
 	}
 .absolute-cover {
-	position: absolute;
-	bottom: 0;
+	
 	width: 100%;
 	margin-bottom: 0;
 	background-image: none;
@@ -80,9 +82,12 @@
 	left: -20px;
 }
 .ty-logo {
-	width: 120px !important;
-	height: 120px !important;
+	width: 60px ;
+	height: 60px;
 	position: relative;
+}
+.navbar{
+	overflow: auto;
 }
 
 #suffix {
@@ -106,9 +111,9 @@
 		padding-right: 0px;
 	}
 	.ty-logo {
-		width: 36px !important;
-		height: 36px !important;
-		top: -3px;
+		width: 36px;
+		height: 36px;
+		
 	}
 
 }
@@ -123,8 +128,8 @@
 		padding-right: 100px;
 	}
 	.ty-logo {
-		width: 100px !important;
-		height: 100px !important;
+		width: 60px !important;
+		height: 60px !important;
 	}
 }
 
@@ -166,9 +171,13 @@ ul.nav.navbar-nav {
   top: 0;
 }
 
-a.color-gold, ul.color-gold>li>a {
-	color: #FFD700 !important;
+ul.color-gold>li>a{
+	
 }
+ul.navhover>li:hover>a{
+	
+}
+
 
 .quotes {
 	background-color: #f2f2f2;
