@@ -122,3 +122,26 @@ a.color-gold, .navhover>li>a{
 
 }
 
+#projects {
+  position: relative;
+}
+
+#projects > img{
+  width:20%;
+}
+
+#projects > h1{
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    
+    height: 26px;
+    padding: 0;
+    margin: 0;
+    margin-top: -13px; /* 1/2 height */
+    text-align: center;
+  }
+
