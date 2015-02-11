@@ -1,0 +1,19 @@
+body {
+	width: 100%;
+	font-family: arial;
+	background: #ADD8E6;
+}
+
+.row{
+	padding-left: 0px;
+	padding-top: 10px;
+	background: white;
+}
+
+img{
+	height: 200px;
+}
+
+h3 {
+	text-align: center;
+}
