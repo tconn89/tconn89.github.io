@@ -1,0 +1,16 @@
+body {
+	width: 100%;
+	font-family: arial;
+	
+}
+
+
+
+img{
+	width: 100%;
+}
+
+.hand {
+	cursor: url(cursor.png) ,default;
+
+}

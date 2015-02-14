@@ -1,0 +1,15 @@
+* {
+	cursor: url(cursor.png) ,default;
+}
+
+#tryAgain_r7_c4:hover {
+	content: url(tryAgain_r7_c4_s5.gif);
+}
+
+#tryAgain_r2_c5:hover {
+	content: url(tryAgain_r2_c5_s3.gif);
+}
+
+#tryAgain_r5_c2:hover {
+	content: url(tryAgain_r5_c2_s4.gif);
+}
