@@ -1,3 +1,40 @@
+@media (min-width: 900px) {
+  .navbar-collapse {
+  
+    min-height: 210px;
+  }
+  .ty-logo {
+      width: 100px;
+      
+  }
+
+}
+
+.left {
+  float: left;
+  width: 100px;
+  padding-left: 20px;
+}
+.mynav {
+  text-align: right;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+.mynav li{
+  display: inline;
+
+     
+  font-size: 24px;
+  line-height: 24px;
+
+  padding: 25px 20px 26px;
+}
+.mynavbar{
+  overflow: auto;
+  height: 120px;
+}
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 /* line 16, ../compass/sass/style.scss */
 *, *:before, *:after {

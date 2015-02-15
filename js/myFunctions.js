@@ -8,27 +8,13 @@
       function() {$(this).children().css("color", "#EE3769"); });
 
 
-$(window).scroll(function(){
 
-    
-    if($(this).scrollTop() > 219) {
-        $('.navbar').removeClass("absolute-cover");
-        $('.navbar').addClass("fixed-cover");
-    } else {
-           
-        $('.navbar').removeClass("fixed-cover");
-        $('.navbar').addClass("absolute-cover");
-      } 
-
-});
 
   
-// SVG RetroBadge Cropping
-  cropBanner();
 
-  $(window).resize(function(){
-    cropBanner();  
-  });
+
+
+  
 
 
 //touchSwipe
