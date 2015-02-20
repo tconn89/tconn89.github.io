@@ -1,8 +1,5 @@
 @media (min-width: 900px) {
-  .navbar-collapse {
   
-    min-height: 210px;
-  }
   .ty-logo {
       width: 100px;
       
@@ -11,6 +8,7 @@
 }
 
 .left {
+
   float: left;
   width: 145px;
   padding-left: 20px;
@@ -34,7 +32,7 @@ a:hover, a:visited, a:link, a:active
 }
 .mynavbar{
   overflow: hidden;
-  height: 120px;
+  height: 170px;
 }
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 /* line 16, ../compass/sass/style.scss */
