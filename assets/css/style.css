@@ -155,7 +155,7 @@ a.color-gold, .navhover>li>a{
 .navhover>li>a:hover{
   background: #FFD700 !important;
   color: white !important;
-
+  padding:20px;
 }
 
 .folder {
