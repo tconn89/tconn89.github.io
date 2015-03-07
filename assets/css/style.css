@@ -20,6 +20,9 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
 }
+.social-wrapper > div {
+  
+}
 .mynav li{
   display: inline;
   position: relative;
@@ -51,7 +54,8 @@ a:hover, a:visited, a:link, a:active
   
 
   /* basic styling */
-  font: 14px Montserrat;;
+  
+  font-family:  Montserrat;
 
   /* flexbox setup */
   display: -webkit-flex;
@@ -67,18 +71,36 @@ a:hover, a:visited, a:link, a:active
 
 
 @media (max-width: 600px) {
+  iframe{
+    height: 300px;
+  }
   .footer {
+    font-size: 20px;
     flex-direction: column;
     height: 150px;
   }
   .social-wrapper {
     width:100%;
+
   }
   .social-wrapper > div {
     margin-bottom: 5px;
+    height: 150px;
   }
 }
 @media (min-width: 601px) {
+  .indie {
+    overflow: hidden;
+  }
+  .indie > img {
+    
+  }
+  .indie > p {
+    vertical-align: middle;
+   
+    font-size: 42px;
+    
+  }
   .social-wrapper {
     -webkit-flex: 1 1 auto;
         flex: 1 1 auto;
@@ -91,6 +113,7 @@ a:hover, a:visited, a:link, a:active
         transition: width 0.7s ease-out;
   }
   .footer {
+    font-size: 30px;
     height: 100px;
     z-index: -1;
   }
@@ -98,7 +121,7 @@ a:hover, a:visited, a:link, a:active
     position: fixed;
     bottom: 0px;
   }*/
-}
+
 .social-wrapper > div {
   /*width: 100%;*/
   
@@ -106,15 +129,15 @@ margin: auto;
   color: #EE3769;
   
   cursor: pointer;
-  border: 1px solid #EE3769;
-  height: 2.8em;
+  
+  height: 100px;
   width: 50%;
   
   /*outline: none;*/
   overflow: hidden;
 
 }
-
+}
 /* line 31, ../compass/sass/style.scss */
 .pulse span > b {
   color: #EE3769;
@@ -158,15 +181,23 @@ a.color-gold, .navhover>li>a{
   padding:20px;
 }
 iframe{
-  padding-left: 25px;
+    width: 100%;
+    
+    margin: 0 auto;
+}
+
+@media (min-width: 900px){
+  iframe {
+    height: 700px;
+
+  }
 }
 
 .folder {
-  position: relative;
-  overflow: auto;
+    position: relative;
+    overflow: auto;
 
-}
-
+  }
 .folder > img{
   width:100%;
   border-bottom: solid black 6px;
