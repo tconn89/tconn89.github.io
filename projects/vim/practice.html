@@ -1,0 +1,29 @@
+<body>
+	<div class="hal">
+		<h1></h1>
+	</div>
+	<style>
+		body{
+			background: skyblue;
+		}
+		@-webkit-keyframes rotate {
+			from {
+		    	-webkit-transform: rotate(0deg);
+		  	}
+		  	to { 
+		    	-webkit-transform: rotate(360deg);
+		  	}
+		}
+
+		img.stained
+		{
+		    -webkit-animation-name:             rotate; 
+		    -webkit-animation-duration:         3.5s; 
+		    -webkit-animation-iteration-count:  infinite;
+		    -webkit-animation-timing-function: linear;
+		}
+	</style>
+	<div><img src="stained-glass-effect.png" class="stained" alt="stained glass"></div>
+		
+</body>
+
