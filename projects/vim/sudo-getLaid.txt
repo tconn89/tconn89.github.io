@@ -1,0 +1,19 @@
+//Player properties can be thought of as skill stats
+
+function getLaid(){
+	if(player.dance > everyone.average){
+		girl.charmed++
+	}
+	else{
+		girl.charmed--
+	}
+
+
+}
+
+// I will use pysduck to learn vim as I will make the game to learn vim
+
+//ask state girls to vibe / take notice aka video you doing parkour
+//Ay girl, you hooked up to dropbox?
+
+//Writing Pseudo-code like this will help generate content for the game.
