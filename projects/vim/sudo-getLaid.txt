@@ -2,6 +2,7 @@
 
 function getLaid(){
 	if(player.dance > everyone.average){
+		confidence++
 		girl.charmed++
 	}
 	else{
@@ -11,7 +12,16 @@ function getLaid(){
 
 }
 
-// I will use pysduck to learn vim as I will make the game to learn vim
+function getHealth(){
+		goto: gym
+		eat: food
+		help: friends
+
+		getLaid()
+
+}
+
+// I will use psyduck to learn vim as I will make the game to learn vim
 
 //ask state girls to vibe / take notice aka video you doing parkour
 //Ay girl, you hooked up to dropbox?

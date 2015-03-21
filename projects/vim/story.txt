@@ -1,0 +1,25 @@
+//There was once a wicked little mouse that wanted to
+//distract users and prevent them from reaching their
+//full potential
+
+//Lets ignore him and learn vim instead
+
+cursor.left = h
+cursor.down = j
+cursor.up = k
+cursor.right = l
+
+//practice on this sentence by
+//moving from top to bottom
+//and side to side
+
+//next is word traversal
+
+word.next = w
+word.end = e
+word.prev = b
+
+//last is word editing
+
+word.change = cw
+word.delete = dw
