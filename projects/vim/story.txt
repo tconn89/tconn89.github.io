@@ -4,10 +4,10 @@
 
 //Lets ignore him and learn vim instead
 
-cursor.left = h
-cursor.down = j
-cursor.up = k
-cursor.right = l
+nav.left = h
+nav.down = j
+nav.up = k
+nav.right = l
 
 //practice on this sentence by
 //moving from top to bottom
