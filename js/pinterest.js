@@ -21,7 +21,8 @@ single_column_breakpoint: 700
         },
         columns,
         $article,
-        article_width;
+        article_width,
+        clicked = false;
 
     function Plugin(element, options) {
         this.element = element;
@@ -59,13 +60,20 @@ single_column_breakpoint: 700
 
         if(single_column_mode === true) {
             article_width = $container.width() - self.options.padding_x;
-        } else {
-            article_width = ($container.width() - self.options.padding_x * self.options.no_columns) / self.options.no_columns;
+        } else if (clicked) {
+            article_width = $container.width() ;
         }
 
+        else {
+            article_width = ($container.width() - self.options.padding_x * self.options.no_columns) / self.options.no_columns;
+        }
         $article.each(function() {
             $(this).css('width', article_width);
+            $(this).click(function(){
+                Plugin.prototype.calculate(false);
+           });
         });
+
 
         columns = self.options.no_columns;
 
