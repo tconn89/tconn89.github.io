@@ -173,8 +173,11 @@ margin: auto;
 }
 a.color-gold, .navhover>li>a{
   color: #FFD700 !important;
-  font-size: 48px;
   font-family: Montserrat;
+}
+.navhover>li>a:hover{
+  background: #FFD700 !important;
+  color: white !important;
 }
 iframe{
     width: 100%;
