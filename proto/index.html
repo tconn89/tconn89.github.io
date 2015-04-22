@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EduMESH</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+	<div class="my-container">
+	  <header class="grey">
+		  <div class="search">
+			  <input type="text" name="search" value="Search Projects" align="center">
+			  <span class="button"><img src="assets/magnifier.png" alt=""></span>
+		  </div>
+	  </header>
+	  <div class="bg"><img src="assets/bg.png" alt=""></div>
+	  <div class="banner"><img src="assets/title.png" alt=""></div>
+	  <div class="folder"><a href=""><img src="assets/folder.png" alt=""></a></div>
+
+	  <canvas id="thecanvas" width="800" height="800"></canvas>
+	  <script>
+		var ctx = document.getElementById('thecanvas').getContext('2d');
+			  if(ctx.ellipse)
+			  {
+				  ctx.save();
+				  ctx.beginPath();
+				  ctx.arc(400, 0, 200, 5/6*Math.PI, 1/6*Math.PI, true);
+				  ctx.globalAlpha = .63;
+				  ctx.fillStyle='#F2E1E7';
+				  ctx.fill();
+				  ctx.restore();
+			  }
+		</script>
+  	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src=""></script>
+  </body>
+</html>
