@@ -1,0 +1,42 @@
+.mesh-section{
+	border-top: 4px darkgrey dashed;
+}
+.grey{
+	background: #47694B;
+	color: white;
+}
+.header h1{
+	color: white;
+}
+.center{
+	text-align:center;
+}
+.mid{
+	margin:0 auto;
+}
+.nudge{
+	margin-left: 4%;
+}
+.description{
+	height: 300px;
+}
+.title{
+	font:36px bold arial;
+
+}
+.slideshow{
+	border: darkgrey 4px dashed;
+}
+.slideshow img{
+	margin-top: 20px;
+}
+.org-icon img{
+	width: 80%;
+}
+.container{
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+.row{
+	padding: 20px 20px;
+}
