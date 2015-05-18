@@ -1,0 +1,121 @@
+body{
+
+}
+.drag-section, h4{
+    margin-top:40px;
+}
+/*inset border -------------------------
+ */
+    .inset-border{
+        border: 12px white solid;
+        box-shadow: inset 5px 5px 0px #36454F, 
+                    inset -5px -5px 0px #36454F;
+        color: #36454F;
+        font-weight:bold;
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    div.fix{
+        text-align: left;
+    }
+    p.nudge-rightdown{
+        line-height: 20px;
+        padding-top:12px;
+    }
+    .buf-right{
+        padding-right:10px; 
+    }
+section{
+    background: #dfe2dc;
+}
+.width70{
+    width:80%;
+}
+.dropzone{
+    background: white;
+}
+#blue{
+    color: skyblue;
+}
+#red{
+    color: tomato;
+}
+#pink{
+    color: hotpink;
+}
+div.blue{
+    background: skyblue;
+    color: white;
+}
+div.red{
+    background: tomato;
+    color: white;
+}
+div.pink{
+    background: hotpink;
+    color: white;
+}
+.one{
+    height: 300px;
+    padding-top: 20px;
+}
+.stop:after{
+    content: '\A stop';
+}
+.two{
+    padding-top: 20px;
+    height: 200px;
+}
+.three{
+    height: 90px;
+    margin-top: 10px;
+}
+.number{
+    font-size: 48px;
+}
+.animate{
+    transition: 1s;
+}
+.zero-ho-padding{
+    padding-left: 0;
+    padding-right:0;
+}
+.draggable {
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    border-radius: 50%;
+    background:white;
+    padding-top: 30px;
+    margin: 10px 0px;
+}
+.draggable>p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.draggable:hover{
+    cursor: move;
+}   
+.page{
+
+}
+
+.selected{
+    background: #7fc62d;
+}
+.tab{
+    background: #c5ccbd;
+}
+span{
+    padding: 8px 8px;
+    color: white;
+    font-weight: bold;
+    border-left: 1px #dfe2dc solid;
+    border-right: 1px #dfe2dc solid;
+}
+.inline{
+    display:inline;
+    padding-right: 8px;
+   vertical-align: middle;
+}
