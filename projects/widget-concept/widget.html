@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="touch-punch.min.js"></script>
+    
 
 </head>
 <body>
@@ -25,24 +27,34 @@
         <br />
         <h4>What do you want to gain from AIGA involvement?</h4>
         <p>Drag into the dotted spaces below in the order of your preference</p>
-        <div class="drag-section width70">
+
+<div id="image_preview" class="abs" title="Client Photo Preview">
+   <p><img src="" alt="" id="client_image_preview" /></p>
+</div>
+        <div id="drag-section" class="width70 slide">
             <div class="pull-right col-md-8 row">
-                <div  class="dropzone inset-border one text-center col-md-5"><p class="number">1</p><br /><p class="">HIGH<br/> PRIORITY</p></div>
+                <div  class="dropzone inset-border one text-center col-md-5"><p class="number">1</p><br /><p class="priority">HIGH<br/> PRIORITY</p></div>
                 <div class="zero-ho-padding col-md-offset-1 col-md-5">
-                    <div  class="dropzone inset-border two text-center"><p class="number">2</p>MEDIUM<br/> PRIORITY</div>
-                    <div  class="dropzone inset-border fix three text-center "><p class="pull-left number buf-right ">3</p>
-                        <p class="nudge-rightdown">LOW PRIORITY</p></div>
+                    <div  class="dropzone inset-border two text-center"><p class="number">2</p><p class="priority">MEDIUM<br/> PRIORITY</p></div>
+                    <div  class="dropzone inset-border  three text-center "><p class="pull-left number buf-right ">3</p>
+                        <p class="nudge-rightdown priority">LOW PRIORITY</p></div>
                 </div>
             </div>
             <div id="red" class="draggable ">
-                <p>Drag me around</p>
+                <p>Meet New People</p>
             </div>
             <div id="pink" class="draggable ">
-                <p>Drag me around</p>
+                <p>Sharpen My Skills</p>
             </div>
             <div id="blue" class="draggable ">
-                <p>Drag me around</p>
+                <p>Make an Impact</p>
             </div>
+        </div>
+
+        <div class="btn-block nextbar">
+            <span class="tab col-sm-4">BACK</span>
+            <span class="tab col-sm-4">--</span>
+            <a class="next" href=""><span class="selected col-sm-4">NEXT</span></a>
         </div>
     </section>
  

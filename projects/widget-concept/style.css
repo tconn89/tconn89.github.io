@@ -1,8 +1,16 @@
 body{
 
 }
-.drag-section, h4{
+#drag-section, h4{
     margin-top:40px;
+}
+.slide{
+    transition: 1s;
+}
+.abs{
+    position: absolute;
+    left: 10px;
+    top: 210px;
 }
 /*inset border -------------------------
  */
@@ -27,6 +35,9 @@ body{
     }
 section{
     background: #dfe2dc;
+}
+.nextbar{
+    text-align: center;
 }
 .width70{
     width:80%;
@@ -69,6 +80,7 @@ div.pink{
 .three{
     height: 90px;
     margin-top: 10px;
+    margin-bottom: 40px;
 }
 .number{
     font-size: 48px;
@@ -76,6 +88,7 @@ div.pink{
 .animate{
     transition: 1s;
 }
+
 .zero-ho-padding{
     padding-left: 0;
     padding-right:0;
