@@ -1,0 +1,205 @@
+@media (min-width: 900px) {
+  
+  .ty-logo {
+      width: 100px;
+      
+  }
+
+}
+
+.left {
+
+  float: left;
+  width: 145px;
+  padding-left: 20px;
+}
+.mynav {
+  text-align: right;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+.social-wrapper > div {
+  
+}
+@media screen and (max-width: 400px){
+  .mynav li{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  ul.mynav{
+    text-align: center;
+  }
+}
+@media screen and (min-width: 401px){
+  .mynav li{
+    font-size: 24px;
+    padding: 25px 20px 20px;
+  }
+}
+.mynav li{
+  display: inline;
+  position: relative;
+  top: 90px;
+     
+  line-height: 24px;
+  
+}
+.mynavbar{
+  overflow: hidden;
+  height: 170px;
+}
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+/* line 16, ../compass/sass/style.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: Montserrat;
+   src: url('../fonts/Montserrat-Bold.otf');
+}
+.footer{
+  
+  width: 100%;
+  background: #222;
+  color: white;
+  padding: 20px;
+
+  /* basic styling */
+  
+  font-family:  Montserrat;
+
+  /* flexbox setup */
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  
+}
+
+
+
+@media (max-width: 600px) {
+  iframe{
+    height: 300px;
+  }
+  .footer {
+    font-size: 20px;
+    flex-direction: column;
+    height: 150px;
+  }
+  .social-wrapper {
+    width:100%;
+
+  }
+  .social-wrapper > div {
+    margin-bottom: 5px;
+    height: 150px;
+  }
+}
+@media (min-width: 601px) {
+  .indie {
+    overflow: hidden;
+  }
+  .indie > img {
+    
+  }
+  .indie > p {
+    vertical-align: middle;
+   
+    font-size: 42px;
+    
+  }
+  .social-wrapper {
+    -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+
+        width: 10em; /* To make the transition work nicely.  (Transitions to/from
+                        "width:auto" are buggy in Gecko and Webkit, at least.
+                        See http://bugzil.la/731886 for more info.) */
+
+        -webkit-transition: width 0.7s ease-out;
+        transition: width 0.7s ease-out;
+  }
+  .footer {
+    font-size: 24px;
+    height: 160px;
+    z-index: -1;
+  }
+  /*.fix-footer {
+    position: fixed;
+    bottom: 0px;
+  }*/
+
+.social-wrapper > div {
+  /*width: 100%;*/
+  
+margin: auto;
+  color: #EE3769;
+  
+  cursor: pointer;
+  
+  height: 100px;
+  width: 50%;
+  
+  /*outline: none;*/
+  overflow: hidden;
+
+}
+}
+/* line 31, ../compass/sass/style.scss */
+.pulse span > b {
+  color: #EE3769;
+  text-decoration: none;
+}
+a.color-gold, .navhover>li>a{
+  color: #FFD700 !important;
+  font-size: 48px;
+  font-family: Montserrat;
+}
+iframe{
+    width: 100%;
+    
+    margin: 0 auto;
+}
+
+@media (min-width: 900px){
+  iframe {
+    height: 700px;
+
+  }
+}
+
+.folder {
+    position: relative;
+    overflow: auto;
+
+  }
+.folder > img{
+  width:100%;
+  border-bottom: solid black 6px;
+ 
+  margin-bottom: 35px;
+}
+
+.folder > h1{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+  
+    
+    
+    padding: 0;
+    margin: 0;
+    margin-top: -13px; /* 1/2 height */
+    text-align: center;
+  }
+

@@ -1,0 +1,105 @@
+var allData = [
+    {
+        "id": 4,        
+        "title" : "Ty Connors",
+        "subtitle" : "Web Developer",
+        "description" : "Embraces cyberculture to compete with the coming intelligence explosion",
+        "imgPath" : "img/6.jpg"
+    }
+];
+
+var skillsData = [
+
+    {
+        "id": 0,        
+        "title" : "Backbone js",
+        "subtitle" : "Data-driven web layouts",
+        "description" : "My knowledge of this library allows me to create more complex webpages using custom templates and JSON data through MVC architecture.",
+        "imgPath" : "img/backbone1.png"
+    },
+    {
+        "id": 1,        
+        "title" : "jQuery",
+        "subtitle" : "Write less, do more",
+        "description" : "The default library for solving my problems, I've written drag & drop apps in jQuery as well as animations.",
+        "imgPath" : "img/jquery.png"
+    },
+    {
+        "id": 50,        
+        "title" : "Vim",
+        "subtitle" : "Programmable code editor",
+        "description" : "Enables mouse-free code manipulation and powerful macros",
+        "imgPath" : "img/3.png"
+    },
+];
+
+var projectsData = [
+    {
+        "id": 10,        
+        "title" : "Park it",
+        "subtitle" : "Envisioning how driverless Ubers will end parking",
+        "description" : "Highlights parking areas and suggests alternative uses for them",
+        "imgPath" : "img/parkit.png"
+    },
+    {
+        "id": 5,        
+        "title" : "Upgrade Uber",
+        "subtitle" : "Driverless taxis to optimize transport",
+        "description" : "mucking about in the driverless vehicle space",
+        "imgPath" : "img/upgrade.png"
+    },
+    {
+        "id": 11,
+        "title" : "EduMesh",
+        "subtitle" : "Changing the way schools communicate",
+        "description" : "Demo built in wordpress here",
+        "imgPath" : "img/edumesh.png"
+    }
+
+];
+var socialData = [
+    {
+        "id": 12,
+        "title" : "Twitter",
+        "subtitle" : "@neuronSwarm",
+        "description" : "",
+        "imgPath" : "img/socialmedia.png"
+    },
+    {
+        "id": 13,
+        "title" : "Linkedin",
+        "subtitle" : "My professional network",
+        "description" : "",
+        "imgPath" : "img/socialmedia.png"
+    }
+];
+var otherData = [
+    {
+        "id": 2,        
+        "title" : "revolution",
+        "subtitle" : "Artificial intelligence",
+        "description" : "Machine learning is poised to disrupt our way of life", 
+        "imgPath" : "img/robotics.jpg"
+    },
+    {
+        "id": 3,
+        "title" : "Mars Colonization",
+        "subtitle" : "Back up the human hard drive on a second disk",
+        "description" : "Not to mention how fun solving interstellar travel is",
+        "imgPath" : "img/mars.jpg"
+    },
+    {
+        "id": 8,        
+        "title" : "Alien Life",
+        "subtitle" : "The Fermi Paradox is real",
+        "description" : "Ever since we tested our first nuclear weapon in 1947, UFO sitings have sky rocketed",
+        "imgPath" : "img/universe.jpg"
+    },
+    {
+        "id": 9,        
+        "title" : "Global Warming",
+        "subtitle" : "Rising temperatures will make it rather hot",
+        "description" : "Tesla to the rescue!",
+        "imgPath" : "img/warming.jpg"
+    }
+];

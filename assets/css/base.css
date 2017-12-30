@@ -1,0 +1,335 @@
+
+
+@font-face {
+   font-family: Gotham;
+   src: url('../fonts/Gotham-Ultra.ttf');
+   /*src: local('Gotham Bold'), local('Gotham'), url('fonts/gotham-bold.ttf') format('truetype');*/
+   font-family: villa;
+   src: url('../fonts/Villa.ttf');
+
+   font-family: Montserrat;
+   src: url('../fonts/Montserrat-Bold.otf');
+
+   font-family: Montserrat-light;
+   src: url('../fonts/Montserrat-Light.otf'); 
+}
+.navbar {
+	height: 80px !important;
+	border: none;
+}
+
+.onHover{
+	background-color: #FFD700;
+	padding: 10px;
+	
+}
+
+.outline {
+	border-style: solid;
+    border-width: 5px;
+    border-color: #df764c;
+}
+
+.auto-ht {
+	margin-bottom: 15px;
+}
+
+.cover-background{
+	    background-image: url('../images/Trifecta1.png');
+	    width:100%;
+	    height: auto;
+	    
+	    overflow: hidden;
+	    position: relative;
+	}
+.absolute-cover {
+	
+	width: 100%;
+	margin-bottom: 0;
+	background-image: none;
+}
+.fixed-cover{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-image: url('../images/Trifecta1.png');
+}
+
+
+
+#needless {
+	font-size: 64px;
+}
+#suffix {
+	font-size: 32;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 25px;
+}
+
+
+#needless, #suffix {
+	
+	text-align: center;
+	
+	font-family: Montserrat;
+	color: #FFD700;
+	position: relative;
+	top: 10px;
+
+}
+#needless {
+	left: -20px;
+}
+.ty-logo {
+	width: 60px ;
+	height: 60px;
+	position: relative;
+}
+.navbar{
+	overflow: auto;
+}
+
+#suffix {
+	padding-left: 250px;
+		padding-right: 250px;
+}
+
+	.proj-description {
+		font-family: Montserrat-light;
+		color: #FFD700;
+}
+
+@media screen and (max-width: 534px) {
+	#needless {
+		font-size: 32px;
+	}
+	#suffix {
+		margin: 20px;
+		font-size: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.ty-logo {
+		width: 36px;
+		height: 36px;
+		
+	}
+
+}
+
+@media screen and (min-width: 535px) and (max-width: 950px) {
+	#needless {
+		font-size: 48px;
+	}
+	#suffix {
+		font-size: 28px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.ty-logo {
+		width: 60px !important;
+		height: 60px !important;
+	}
+}
+
+
+.layout-title {
+	
+}
+
+#nav-title .layout-title {
+	
+	color: #1f963a;
+	font-size: 24px;
+	font-family: gotham;
+	
+}
+
+.badge-container {
+	max-height: 960px;
+	overflow: hidden;
+}
+
+#projects-banner {
+	margin: 0 auto;
+}
+
+ul.nav.navbar-nav {
+	float: right;
+}
+
+.navbar {
+	z-index: 150;
+	background-color: rgba(0,0,0, 0);
+	
+}
+
+.nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+ul.color-gold>li>a{
+	
+}
+ul.navhover>li:hover>a{
+	
+}
+
+
+.quotes {
+	background-color: #f2f2f2;
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.myquote {
+		content: 'Figure \a';
+
+	}
+}
+
+.khosla {
+	padding: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+.quoteFooter {
+	font-size: 120%;
+}
+
+.img-responsive {
+	margin-bottom: 15px;
+}
+
+/*
+* Masonry Nonsense
+*/
+#masonry-container {
+	
+	padding:20px;
+	background-color: #f2f2f2;
+	
+	
+
+}
+
+#projects{
+	font-family: Montserrat;
+	margin: 10px;
+}
+
+.proj-description {
+	font-size: 20px;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+
+}
+
+.under-img {
+  position: relative;
+  height: 200px;
+  
+ 
+  
+  /*z-index: 5;*/
+}
+
+.proj-text {
+	display: inline-block;
+    vertical-align: middle;
+    
+    line-height: normal;
+    text-justify: left;
+    width: 50%;
+	font-size: 14px;
+	font-family: Montserrat;
+	
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  color: black;
+  margin-left 0;
+  transition: margin-left 1.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  z-index: 1;
+  
+}
+
+.two {
+  background: hotpink;
+  z-index: 0;
+}
+
+
+.under-img:hover > .slide {
+  margin-left: 50%;
+  z-index: inherit 1;
+}
+
+.proj-hover:hover {
+
+}
+
+.inspire {
+	padding: 25px;
+}
+
+
+.masonry-img {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+}
+
+img.proj-items {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+	
+	width: 100% !important;
+}
+
+
+.item > img {
+	box-shadow: 5px 5px 4px #100f14;
+
+}
+
+.item {
+	background: transparent;
+	padding-bottom: 10px;
+
+	
+}
+
+.d3-button {
+		width: 45%;
+		height: 60px;
+		padding: 0;
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+		background: #1abc9c;
+		border: 0;
+		border-bottom: 2px solid #12ab8d;
+		cursor: pointer;
+		-webkit-box-shadow: inset 0 -2px #12ab8d;
+		box-shadow: inset 0 -2px #12ab8d;
+}
+
+

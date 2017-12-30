@@ -1,33 +1,62 @@
-// external js
-// http://masonry.desandro.com/masonry.pkgd.js
-// http://masonry.desandro.com/bower_components/classie/classie.js
+// Project on-hover
+  $('.proj-description').hide();
 
-docReady( function() {
+  $(".proj-onHover").mouseover(showProjDescription);
+  $(".proj-onHover").mouseout(hideProjDescription);
 
-  var container = document.querySelector('#container');
-  var msnry = new Masonry( container, { 
-    columnWidth: 250,
-    isAnimated: true
-  });
-  imagesLoaded( container, function() {
-      msnry.layout();
-    });
+  $('.pulse > span').hover( function() {$(this).children().css("color", "white"); },
+      function() {$(this).children().css("color", "#EE3769"); });
 
 
-  eventie.bind( container, 'click', function( event ) {
-    // don't proceed if item content was not clicked on
-    var target = event.target;
-    if ( !classie.has( target, 'clickable' )  ) {
-      return;
-    }
-    var itemElem = target.parentNode;
-    classie.toggleClass( itemElem, 'is-expanded' );
 
 
-    msnry.layout();
-      
-    
-    
-  });
   
+
+
+
+  
+
+
+//touchSwipe
+var d3mobileSlide = $('.slide');
+
+d3mobileSlide.swipe({
+  swipeRight:function(event, direction, distance, duration, fingerCount) {
+    $(this).trigger("mouseover");
+  }
 });
+
+
+function showProjDescription(){
+  $(this).next().slideDown(300);
+
+}
+
+function hideProjDescription(){
+  $(this).next().slideUp(300);
+}
+
+// Crop Projects Banner, eliminate excess white space
+function cropBanner(){
+  var banner = $('.badge-container')
+  banner.css("height", function() {return .66*banner.width();});
+}
+
+//scrolling and fixed pos for footer
+
+// var footer = $(".footer");
+
+// $(window).on("scroll", function(e) {
+    
+//   if ($(window).scrollTop() > 147) {
+//     footer.addClass("fix-footer");
+//   } else {
+//     footer.removeClass("fix-footer");
+//   }
+  
+// });
+
+
+
+
+

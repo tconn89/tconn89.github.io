@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html id="main" lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title> Ty's Portfolio </title>
+	  
+	  
+	  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+	  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="assets/css/base.css">
+	  <link rel="stylesheet" href="assets/css/style.css">
+
+	  <link rel="stylesheet" href="assets/css/pinterest.css">
+
+
+
+	  
+
+	  <title> Ty's Portfolio </title>
+	 
+		 <script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-55633508-1', 'auto');
+			  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+
+	
+
+	
+	
+	<div class="cover-background">
+
+		<h1 id="needless">
+			
+			TY CONNORS 
+		</h1>
+		<h3 id="suffix"> BELIEVES THAT EASE AND SIMPLICITY ARE THE CORNERSTONES OF FRONTEND DEV & DESIGN </h3>
+
+		
+		      <div class="mynavbar" >
+		      	<img src="assets/images/robo.gif" class="left" alt="">
+		        <ul class="mynav color-gold navhover">
+		          <li class=""><a href="https://www.linkedin.com/pub/ty-connors/31/165/9b" target="_blank" class="">
+	  		<span><b class="fa fa-linkedin"> </b> </span>
+		</a></li>
+		<li class=""><a href="https:\\twitter.com/neuronswarm" target="_blank" class="">
+	  		<span><b class="fa fa-twitter"> </b> </span>
+		</a></li>
+		<li class=""><a href="https://facebook.com/tconn89" target="_blank" class="">
+	  		<span><b class="fa fa-facebook"> </b> </span>
+		</a></li>
+
+		        </ul>
+		      </div>    
+		  </div>  
+	<!-- Projects -->
+<div class="container">
+  <div class="row">
+    <h2>Projects </h2>
+    <br>
+
+    <section id="pinBoot">
+
+      <article class="white-panel data-visuals "><img src="assets/images/keyboard-mouse1.png" alt="">
+        <h4><a href="#">Data Visuals</a></h4>
+        <p>Ty is interested in expressing trends with shapes and colors.  His actuarial background at UNC gives him a strong foundation in mathematics & data analysis.</p>
+      </article>
+
+      <article class="white-panel"> <img src="assets/images/skills.png" alt="">
+        <h4><a href="#">Photoshop Journeyman</a></h4>
+		<p>Ty has spent some time in Photoshop as well as many other Creative Cloud tools.  He is gearing up for a career in games and interaction design.</p>
+      </article>
+
+
+      <article class="white-panel"> <img src="assets/images/learn-mock.png" alt="">
+        <h4><a href="#">Psyduck eLearning Game</a></h4>
+        <p>Ty is creating a game to learn Vim.  Vim is a code editor with hidden powers that most people don't understand.</p>
+      </article>
+
+      <article class="white-panel"> <img src="assets/images/splash.png" alt="">
+        <h4><a href="#">Ape-Tastrophe Island</a></h4>
+        <p>During NC State's Gamejam, Ty contributed to game logic and interaction design on a strategy-survival prototype.</p>
+      </article>
+
+      <article class="white-panel"> <img src="assets/images/cover.png" alt="">
+        <h4><a href="#">EduMesh</a></h4>
+        <p>In an effort to connect schools and company workflows together from K-12 to University to company needs, we want to create a network for transparent and informed decision-making.</p>
+      </article>
+
+
+
+            <article class="white-panel"> <img src="assets/images/intro.png" alt="">
+        <h4><a href="#">Learn Vim</a></h4>
+        <p>Vim is a powerful tool for text and code editing.  In order to enhance productivity, Ty must become a Vim master!</p>
+      </article>
+
+    </section>
+
+
+    <hr>
+
+
+  </div>
+
+
+
+
+
+		<!-- END Famous Quotes !!!!!!!! -->
+	<div class="slides">
+	<div class="indie"><img src="assets/images/indie_logo.png" alt="Indie logo" class="col-md-2 col-lg-2"><p>PRESENTS</p></div>
+		<iframe src="https://docs.google.com/presentation/d/1mE2SZto8RP4_kRSk165Qpiht1Oj-lFb2pExU-eq_Tjw/embed?start=false&loop=true&delayms=15000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	</div>
+	<div class="footer">
+		<div class="social-wrapper"><div><a href="https://www.linkedin.com/pub/ty-connors/31/165/9b" target="_blank" class="pulse">
+	  		<span><b class="fa fa-linkedin"> LinkedIn </b> </span>
+		</a></div></div>
+		<div class="social-wrapper"><div><a href="https://twitter.com/tconn89" target="_blank" class="pulse">
+	  		<span><b class="fa fa-twitter"> Twitter</b> </span>
+		</a></div></div>
+		<div class="social-wrapper"><div><a href="https://facebook.com/tconn89" target="_blank" class="pulse">
+	  		<span><b class="fa fa-facebook"> Facebook</b> </span>
+		</a></div></div>
+	</div>
+	<div class="quotes container">
+		
+		<blockquote class="row blockquote-reverse">
+			<div class="myquote">
+		  		<p >Lookin good ain't easy</p>
+		  		<footer class="quoteFooter"><cite title="Ty Connors">Ty Connors</cite></footer>
+		  	</div>
+		</blockquote>
+		
+	</div>
+			
+	  <script src="js/jquery-1.11.1.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/jquery.touchSwipe.min.js"></script>
+	  <script src="js/myFunctions.js"></script>
+
+	  <script src="js/pinterest.js"></script>
+	  <script src="js/grow.js"></script>
+
+	
+
+		 
+
+		<!-- End Masonry -->
+			
+	</body>
+</html>
