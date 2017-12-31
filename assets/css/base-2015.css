@@ -35,40 +35,13 @@
 }
 
 .cover-background{
-			background-image: url('https://unsplash.it/975/300');
-			background-size: 100%;
-			background-repeat: no-repeat;
+	    background-image: url('../images/Trifecta1.png');
 	    width:100%;
 	    height: auto;
 	    
 	    overflow: hidden;
 	    position: relative;
 	}
-
-@media screen and (max-width: 1055px) {
-	.cover-background {
-			background-size: 150%, 100%;
-
-	}
-}
-@media screen and (max-width: 755px) {
-	.cover-background {
-			background-size: 180%, 100%;
-
-	}
-}
-@media screen and (max-width: 555px) {
-	.cover-background {
-			background-size: 200%, 100%;
-
-	}
-}
-@media screen and (max-width: 455px) {
-	.cover-background {
-			background-size: 300%, 100%;
-
-	}
-}
 .absolute-cover {
 	
 	width: 100%;
