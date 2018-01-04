@@ -72,7 +72,7 @@
 					</article>
 
 					<article class="white-panel"> <img src="assets/images/dashboard.png" alt="">
-						<h4><a href="https://coffeelux.club" target="blank">CoffeeLux Raleigh Cafe Discovery</a></h4>
+						<h4><a href="https://coffeelux.club/dashboard/0" target="blank">CoffeeLux Raleigh Cafe Discovery</a></h4>
 				<p>Ty's experience with javascript libraries allowed him to pick up Facebook's React tool.  Building a dashboard to track coffee consumption throughout Raleigh is easy with React!</p>
 					</article>
 
@@ -120,6 +120,18 @@
 
 	<script src="js/pinterest.js"></script>
 	<script src="js/grow.js"></script>
+
+	<script>
+		$('.white-panel').on('click', (e) => {
+			if(e.target.localName == 'a'){ return}
+			var link;
+			if( $(e.target)[0].localName == 'article')
+			  link = $(e.target).children('h4').children('a').attr('href')
+			else
+			  link = $(e.target).siblings('h4').children().attr('href')
+			window.open(link, '_blank'); 
+		})
+	</script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

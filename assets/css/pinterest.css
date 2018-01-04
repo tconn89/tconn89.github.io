@@ -36,4 +36,5 @@ stylize any heading tags withing white-panel below
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  cursor: url(../images/color-hand-cursor.png), pointer;
 }
