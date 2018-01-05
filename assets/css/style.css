@@ -20,36 +20,91 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
 }
-.social-wrapper > div {
-  
+.mynavbar{
+  display: inline-block;
+  overflow: hidden;
+  height: 20%;
+  width: 15%;
+  background: rgba(0,0,0,0.65);
+  padding-top: 15px;
 }
-@media screen and (max-width: 400px){
-  .mynav li{
-    font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  ul.mynav{
-    text-align: center;
-  }
-}
-@media screen and (min-width: 401px){
-  .mynav li{
-    font-size: 24px;
-    padding: 25px 20px 20px;
-  }
+.push-right {
+  display: inline-block;
+  height: 20px;
+  width: 70%;
 }
 .mynav li{
   display: inline;
-  position: relative;
-  top: 90px;
-     
   line-height: 24px;
-  
+  font-size: 38px;
 }
-.mynavbar{
-  overflow: hidden;
-  height: 170px;
+ul.mynav{
+  text-align: right;
+}
+.mynav li{
+  padding-right: 10px;
+}
+.mynav li:not(:first-of-type){
+  padding-left: 10px;
+}
+@media screen and (max-width: 2000px){
+  .push-right {
+    width: 70%;
+  }
+  .mynavbar {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1500px){
+  .push-right {
+    width: 65%;
+  }
+  .mynavbar {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .mynav li:not(:first-of-type){
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .push-right {
+    width: 50%;
+  }
+  .mynavbar {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 700px){
+
+  .push-right {
+    width: 45%;
+  }
+  .mynavbar {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 550px){
+  .mynav li {
+    font-size: 32px;
+  }
+  .push-right {
+    width: 45%;
+  }
+  .mynavbar {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 450px){
+  .mynav li {
+    font-size: 32px;
+  }
+  .push-right {
+    width: 15%;
+  }
+  .mynavbar {
+    width: 80%;
+  }
 }
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 /* line 16, ../compass/sass/style.scss */
@@ -158,7 +213,6 @@ margin: auto;
 }
 a.color-gold, .navhover>li>a{
   color: #FFD700 !important;
-  font-size: 48px;
   font-family: Montserrat;
 }
 iframe{

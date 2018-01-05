@@ -56,21 +56,33 @@ a {
 	    position: relative;
 	}
 
-@media screen and (max-width: 1055px) {
+@media screen and (max-width: 1155px) {
 	.cover-background {
-			background-size: 150%, 100%;
+			background-size: 120%, 100%;
 
 	}
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 955px) {
 	.cover-background {
-			background-size: 180%, 100%;
+			background-size: 160%, 100%;
+
+	}
+}
+@media screen and (max-width: 775px) {
+	.cover-background {
+			background-size: 200%, 100%;
+
+	}
+}
+@media screen and (max-width: 655px) {
+	.cover-background {
+			background-size: 260%, 100%;
 
 	}
 }
 @media screen and (max-width: 555px) {
 	.cover-background {
-			background-size: 200%, 100%;
+			background-size: 300%, 100%;
 
 	}
 }
