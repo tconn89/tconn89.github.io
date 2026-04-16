@@ -1,11 +1,3 @@
-## Welcome
+## Update Readme to reflect april volunteer event opportunity
 
-Have a look around.  This is the requiem of a fullstack developer.
-
-## Timeline
-
-2014 - Learn HTML & CSS
-2015 - Learn Javascript & Ruby on Rails
-2016 - Learn Angular, Rspec, Node js
-2017 - Learn C#, Docker, React
-2018 - ...
+Get people together to repair my house to serve the lord!
